@@ -1,0 +1,98 @@
+
+https://github.com/skillupafricaproject/Tech-Driven-Trade-by-Barter
+**Terminology
+
+**REMOTES
+git remote add NAME URL
+git remote remove NAME
+git rename OLDNAME NEWNAME
+git remote -v
+
+**organizing project
+*Managing projects
+-contributors
+-issues
+-labels
+-milestones
+-projects
+
+**GIThub Syncing
+git clone
+git fetch
+git pull
+git branch -a
+
+
+
+**git push
+**git push --all
+
+**
+git restore .
+git log 
+git status
+git commit --amend
+
+.gitignore
+**
+
+**clearing the cache
+git rm -r --cached
+
+**Deleting and Renaming
+git rm 'index.html'
+* git restore -S
+git mv index.html home.html
+
+** difference
+*git diff 
+*git log --oneline
+
+**changing history
+*amending
+git commit --amend
+git commit -m
+*git reset (from the log- rewinds the commit) 
+git reset --hard  (reset any commits id before the selected)
+
+*rebasing
+git rebase <branch>/<commit>
+git rebase -i HEAD--3
+git rebase -i --root
+
+**Branching
+git branch
+*copying a branch
+git swtich -c NAME
+git checkout -b NAME
+
+**Merging
+*git merge<branch>
+git switch main
+git merge <other Branch name>
+
+**Deleting a Branch
+*git branch --delete NAME
+
+**git flow
+*Feature/fix branch
+*make changes
+*merge to master
+*delete old branch
+
+**Merging conflicts
+**stach and clean
+*staching code
+git stach
+git stach list
+git stach apply -0
+git stach pop
+git restore
+
+**git clean
+git clean -n #file run
+git clean -d #directories run
+git clean -df #directories & file run
+
+
+

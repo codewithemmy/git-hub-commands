@@ -1,0 +1,27 @@
+heroku git deployment
+$ git init
+$ git add .
+$ git commit -m "initial commit"
+$ heroku login
+$ heroku create the-jobs-for-api
+$ git remote -v
+$ heroku config:set JWT_LIFETIME=30d
+$ git push heroku master
+
+//cloning from heroku
+**heroku git:clone -a the-jobs-for-api
+
+//updating
+$ git init
+$ git add .
+$ git commit -m "initial commit"
+$ git push heroku master
+
+//cloning a branch
+git clone --single-branch -b "react-booking-ui" https://github.com/safak/youtube2022.git .
+
+//git clone and push
+git clone <repo link>
+**make changes
+git push 
+git pull

@@ -1,0 +1,6 @@
+Host: server191.web-hosting.com
+Port: 21098
+Protocol: SFTP
+Logon Type: Normal
+User: simaqbkx
+Password: your cPanel password
